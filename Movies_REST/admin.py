@@ -13,6 +13,7 @@ class MovieAdmin(admin.ModelAdmin):
 
     list_display = ('title', 'director', 'screenplay', 'year', 'genre', 'ranking')
 
+
 @admin.register(Role)
 class RoleAdmin(admin.ModelAdmin):
 

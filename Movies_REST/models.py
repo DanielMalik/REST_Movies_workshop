@@ -23,7 +23,7 @@ RANK = (
 class Person(models.Model):
     first_name = models.CharField(max_length=32)
     last_name = models.CharField(max_length=32)
-    birth_date = models.DateField()
+    birth_date = models.DateField(null=True)
     birthplace = models.CharField(max_length=64)
     info = models.TextField(null=True)
 
